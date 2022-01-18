@@ -1,0 +1,19 @@
+p {
+  font-family: Lato;
+}
+.green {
+  color: #69ff40;
+}
+
+.red {
+  color: #ff5140;
+}
+
+.yellow {
+  color: #ffdc40;
+}
+.inline {
+  display: inline;
+  font-size: 20px;
+  font-family: "clear sans";
+}

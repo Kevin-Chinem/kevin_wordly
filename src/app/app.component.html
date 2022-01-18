@@ -1,0 +1,12 @@
+Sua palavra tem {{word.length}} letras
+
+<input [(ngModel)]="wordTry" />
+<button (click)="sendWord()">validar</button>
+
+<div *ngFor="let item of userTrys">
+  <div *ngFor="let l of item.data" class="{{l.class}} inline">
+    {{l.letter.toUpperCase()}}
+  </div>
+</div>
+
+<button (click)="showAnswer()">Ver resposta</button>
